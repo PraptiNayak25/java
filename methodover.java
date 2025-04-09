@@ -11,17 +11,20 @@ class methodover {
 class Student {
     String name;
     int age;
-
+    int fee;
    
     public Student() {
         name = "unknown";
         age = 0;
+        int fee;
     }
 
     
-    public Student(String name, int age) {
+    public Student(String name, int age,int fee) {
         this.name = name;  
-        this.age = age;
+     
+   this.age = age;
+   this.fee=fee;
     }
 }
 
